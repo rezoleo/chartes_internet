@@ -1,86 +1,96 @@
-\documentclass[12pt]{article}
+\documentclass[11pt, a4paper]{article}
 
-%\usepackage{extsizes}
-\usepackage[utf8]{inputenc}
 \usepackage[french]{babel}
 \usepackage[T1]{fontenc}
-\usepackage{lmodern}
+\usepackage[utf8]{inputenc}
 \usepackage{array, multirow, tabularx}
 \usepackage{graphicx}
 \usepackage{multicol}
-\usepackage{eurosym}
-\usepackage{xcolor}
-\usepackage{ulem}
-\usepackage{hyperref}
-\usepackage[left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry}
+\usepackage{url}
+
+\usepackage{geometry}
+\geometry{
+  left=1.5cm,
+  right=1.5cm,
+  top=1cm,
+  bottom=1cm
+}
+
+\usepackage{fontspec}
+\setmainfont{OpenSans}[Path=./fonts/, Extension=.ttf,
+  UprightFont=*-Regular,
+  BoldFont=*-Bold,
+  ItalicFont=*-Italic]
+
+\pagestyle{empty}
+
+\usepackage{setspace}
+\setstretch{1.2}
 
 \begin{document}
-	
-\thispagestyle{empty}
 
-\begin{minipage}{0.15\linewidth}
-	\includegraphics[height=3cm]{rezoleo.png}
-\end{minipage}\hfill
-\begin{minipage}{0.80\linewidth}
-\LARGE \textbf{Charte de bonne utilisation du réseau mis à disposition}
-\end{minipage}
-
-%\rule{\linewidth}{.5pt}}
-\begin{flushright}
-	\begin{minipage}{0.5\linewidth}
-		Nom : \dotfill\\
-		Prénom : \dotfill\\
-		Appartement : \dotfill\\
-		Adresse e-mail : \dotfill
+\begin{center}
+	\begin{minipage}{0.2\textwidth}
+		\includegraphics[height=3cm]{rezoleo_logo.png}
 	\end{minipage}
-\end{flushright}
+	\begin{minipage}{0.7\textwidth}
+		\vspace{0.3cm}
+		\Huge \textbf{Charte de bonne utilisation}\\
+		\Huge \textbf{du réseau mis à disposition}
+	\end{minipage}
+\end{center}
+
 \vspace*{0.5cm}
 
-Cette présente charte s'accompagne du règlement interieur de l'association qu'il est nécessaire de respecter. Celui-ci est disponible à l'adresse suivante : \url{https://ri.rezoleo.fr}
+\hrule
+\vspace{.5cm}
+\noindent Nom : \makebox[8cm]{\dotfill}
+\vspace{.5cm}
+Prénom : \dotfill\\
+Appart : \makebox[2cm]{\dotfill}
+Adresse e-mail : \dotfill\\
+\hrule
+\vspace{.5cm}
 
-\vspace*{0.5cm}
+\noindent Cette présente charte s'accompagne du règlement intérieur de l'association qu'il est nécessaire de respecter. Celui-ci est disponible à l'adresse : \url{https://ri.rezoleo.fr/}.
+
+\vspace{.5cm}
 
 \begin{enumerate}
+
 \item L'adhérent est responsable de ses fichiers et de l'intégrité de son espace de travail.
+
 \item L'adhérent est le seul responsable de ses activités et des contenus qu'il consulte ou produit à destination du réseau.
+
 \item L'adhérent s'engage à respecter la législation en vigueur et notamment concernant la propriété intellectuelle. Il s'engage à ne pas partager de logiciel ou de contenu multimédia sans le consentement de son auteur.
 
-\item La connexion consentie à l'adhérent est strictement personnelle. Il s'engage sous peine de radiation à ne pas partager ou céder cette connexion à un tiers.
+\item La connexion consentie à l'adhérent est \textit{strictement personnelle}. Il s'engage sous peine de radiation à ne pas partager ou céder cette connexion à un tiers.
 
-\item L'adhérent est le seul responsable de l'utilisation qui est faite de ses appareils électroniques. Il pourra être tenu responsable de toute utilisation qui en est faite, avec ou sans son accord.
+\item L'adhérent est le seul responsable de l'utilisation qui est faite de ses appareils. Il sera tenu responsable de toute utilisation qui en est faite, même sans son accord.
 
 \item L'adhérent s'engage à notifier à l'association Rézoléo toute tentative de piratage ou de vol de ses appareils électroniques et de ses comptes.
 
 \item L'adhérent s'engage à respecter la vie privée des autres utilisateurs du réseau.
 
-\item L'adhérent s'engage à ne pas troubler le bon fonctionnement du réseau mis à sa disposition.
+\item L'adhérent s'engage à ne pas troubler le bon fonctionnement du réseau.
 
 \item L'adhérent comprend qu'il pourra être poursuivi indépendamment du Rézoléo pour les infractions qu'il commet, notamment en matière d'injure, de diffamation et de contrefaçon.
 
-\item L'adhérent comprend que l'association Rézoléo peut, à la demande de l'autorité judiciaire, fournir toutes les données en sa possession permettant de l'identifier.
+\item L'adhérent comprend que l'association Rézoléo doit, à la demande de l'autorité judiciaire, fournir toutes les données en sa possession permettant de l'identifier.
 
-\item L'adhérent s'engage à respecter le Règlement Intérieur de l'association Rézoléo et comprend
-que sa radiation et des poursuites pourront être engagées si nécessaires.
-
-%\item \red{[Le responsable de traitement] traite les données recueillies pour [finalités du traitement]. Pour en savoir plus sur la gestion de vos données personnelles et pour exercer vos droits, reportez-vous à la notice ci-jointe.}
-%
-%\item \red{Rézoléo traite les données recueillies pour gérer les abonnements internet. Pour en savoir plus sur la gestion de vos données personnelles et pour exercer vos droits, reportez-vous au règlement intérieur \url{ri.rezoleo.fr}.}
+\item L'adhérent s'engage à respecter le Règlement Intérieur de l'association  et comprend que sa radiation et des poursuites pourront être engagées si nécessaires.
 
 \end{enumerate}
 
 \vspace*{0.5cm}
 
-Je soussigné(e) \makebox[75mm]{\dotfill}, adhérent aux services et au réseau gérés par le Rézoléo,
-déclare avoir pris connaissance des conditions ci-dessus et m'engage à les respecter.
-
-\vspace*{0.5cm}
+\noindent Je, soussigné(e) \makebox[75mm]{\dotfill}, souhaite devenir adhérent connecté de l'association Rézoléo et déclare avoir pris connaissance des conditions ci-dessus et m'engage à les respecter.
 
 \begin{flushright}
 	\begin{minipage}{0.5\linewidth}
-		Fait à Villeneuve d'Ascq le : \dotfill\\
+		Fait à Villeneuve-d'Ascq le : \dotfill\\
 		Signature :
 	\end{minipage}
 \end{flushright}
-
 
 \end{document}

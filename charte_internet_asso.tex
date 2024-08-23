@@ -1,84 +1,127 @@
-\documentclass[11pt]{article}
+\documentclass[11pt, a4paper]{article}
 
-%\usepackage{extsizes}
+\usepackage[french]{babel}
 \usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{array, multirow, tabularx}
 \usepackage{graphicx}
-\usepackage[top = 1cm, bottom = 2cm, right = 2cm, left = 2cm]{geometry}
-\usepackage{enumitem}
+\usepackage{multicol}
+\usepackage{xcolor}
+\usepackage{colortbl}
+\usepackage{url}
+
+\usepackage{geometry}
+\geometry{
+  left=1.5cm,
+  right=1.5cm,
+  top=2cm,
+  bottom=2cm
+}
+
+\usepackage{fontspec}
+\setmainfont{OpenSans}[Path=./fonts/, Extension=.ttf,
+  UprightFont=*-Regular,
+  BoldFont=*-Bold,
+  ItalicFont=*-Italic]
+
+\usepackage{setspace}
+\setstretch{1.2}
+
 \begin{document}
-	
-\thispagestyle{empty}
 
-\begin{minipage}{0.15\linewidth}
-	\includegraphics[height=3cm]{rezoleo.png}
-\end{minipage}\hfill
-\begin{minipage}{0.80\linewidth}\center
-{\LARGE \textbf{Charte de bonne utilisation du réseau mis à disposition}}
-\end{minipage}
-
-\begin{flushright}
-	\begin{minipage}{0.75\linewidth}
-		Nom de l'association : \dotfill\\
-		Adresse du local : \dotfill\\
-		Mail du responsable : \dotfill
+\begin{center}
+	\begin{minipage}{0.2\textwidth}
+		\includegraphics[height=3cm]{rezoleo_logo.png}
 	\end{minipage}
-\end{flushright}
+	\begin{minipage}{0.7\textwidth}
+		\vspace{0.3cm}
+		\Huge \textbf{Charte de bonne utilisation}\\
+		\Huge \textbf{du réseau mis à disposition}
+	\end{minipage}
+\end{center}
+
 \vspace*{0.5cm}
 
-\textit{Cette présente charte s'accompagne du règlement interieur de l'association qu'il est nécessaire de respecter. Celui-ci est disponible à l'adresse suivante : https://ri.rezoleo.fr}
+\hrule
+\vspace{.5cm}
+\noindent Nom de l'Association : \dotfill
+\vspace{.5cm}\\
+Email de Contact : \dotfill\\
+\hrule
+\vspace{.5cm}
 
-\begin{enumerate}[leftmargin=*]
+\noindent Cette présente charte s'accompagne du règlement intérieur de l'association qu'il est nécessaire de respecter. Celui-ci est disponible à l'adresse : \url{https://ri.rezoleo.fr/}.
+
+\vspace{.5cm}
+
+\begin{enumerate}
 
 \item L'association est responsable de ses fichiers et de l'intégrité de son espace de travail.
 
-\item L'association est la seule responsable de ses activités et des contenus qu'elle consulte ou produit à
-destination du réseau.
+\item L'association est la seule responsable de ses activités et des contenus qu'il consulte ou produit à destination du réseau.
 
-\item L'association s'engage à respecter la législation en vigueur et notamment concernant la propriété
-intellectuelle. Elle s'engage à ne pas partager de logiciel ou de contenu multimédia sans le
-consentement de son auteur.
+\item L'association s'engage à respecter la législation en vigueur et notamment concernant la propriété intellectuelle. Elle s'engage à ne pas partager de logiciel ou de contenu multimédia sans le consentement de son auteur.
 
-\item La connexion consentie à l'association est strictement réservée à un usage s'inscrivant dans le cadre des activités de l'association. Elle s'engage sous peine de
-radiation à ne pas partager ou céder cette connexion à un tiers.
+\item La connexion consentie à l'association est strictement réservée à un usage s'inscrivant dans le cadre des activités de l'association. Elle s'engage sous peine de radiation à ne pas partager ou céder cette connexion à un tiers en dehors de ce cadre.
 
-\item L'association est la seule responsable de l'utilisation qui est faite de ses appareils électroniques. Elle
-pourra être tenue responsable de toute utilisation qui en est faite, avec ou sans son accord.
+\item L'association est la seule responsable de l'utilisation qui est faite de ses appareils. Elle sera tenu responsable de toute utilisation qui en est faite, même sans son accord.
 
-\item L'association s'engage à notifier à l'association Rézoléo toute tentative de piratage ou de vol de ses
-appareils électroniques et de ses comptes.
+\item L'association s'engage à notifier à Rézoléo toute tentative de piratage ou de vol de ses appareils électroniques et de ses comptes.
 
 \item L'association s'engage à respecter la vie privée des autres utilisateurs du réseau.
 
-\item L'association s'engage à ne pas troubler le bon fonctionnement du réseau mis à sa disposition.
+\item L'association s'engage à ne pas troubler le bon fonctionnement du réseau.
 
-\item L'association comprend qu'elle pourra être poursuivie indépendamment du Rézoléo pour les
-infractions qu'elle commet, notamment en matière d'injure, de diffamation et de contrefaçon.
+\item L'association comprend qu'elle pourra être poursuivie indépendamment de Rézoléo pour les infractions qu'elle commet, notamment en matière d'injure, de diffamation et de contrefaçon.
 
-\item L'association comprend que l'association Rézoléo peut, à la demande de l'autorité judiciaire,
-fournir toutes les données en sa possession permettant de l'identifier.
+\item L'association comprend que l'association Rézoléo doit, à la demande de l'autorité judiciaire, fournir toutes les données en sa possession permettant de l'identifier.
 
-\item L'association s'engage à notifier l'association Rézoléo de tout changement de responsable.
+\item L'association s'engage à respecter le Règlement Intérieur de Rézoléo  et comprend que sa radiation et des poursuites pourront être engagées si nécessaires.
 
-\item L'association s'engage à respecter le Règlement Intérieur de l'association Rézoléo et comprend
-que sa radiation et des poursuites pourront être engagées si nécessaires.
-
+\item L'association s'engage à notifier Rézoléo de tout changement de responsable, afin de signer à nouveau cette charte.
 
 \end{enumerate}
 
+\newpage
+
+\noindent Chaque signataire ci-dessous, responsable légal de l'association mentionnée ci-dessus, déclare avoir pris connaissance des conditions de cette charte et s'engage à les faire respecter au sein de son association.
+
 \vspace*{0.5cm}
 
-Je soussignée \makebox[50mm]{\dotfill}, responsable de l'association \makebox[50mm]{\dotfill} adhérente aux services et au réseau gérés par le Rézoléo,
-déclare avoir pris connaissance des conditions ci-dessus et engage mon association à les respecter.
-
-\vspace*{0.5cm}
-
-
-\begin{flushright}
-	\begin{minipage}{0.5\linewidth}
-		Fait à Villeneuve d'Ascq le : \dotfill\\
-		Signature :
-	\end{minipage}
-\end{flushright}
-
+\begin{table}[h]
+	\centering
+	\renewcommand{\arraystretch}{2}
+	\small{
+		\begin{tabular}{|p{6cm}|p{3cm}|p{6cm}|}
+			\hline
+			\rowcolor{black!10} NOM Prénom & Qualité & Date et Signature \\
+			\hline
+			                          &             &                   \\
+			\hline
+			                          &             &                   \\
+			\hline
+			                          &             &                   \\
+			\hline
+			                          &             &                   \\
+			\hline
+			                          &             &                   \\
+			\hline
+			                          &             &                   \\
+			\hline
+			                          &             &                   \\
+			\hline
+			                          &             &                   \\
+			\hline
+			                          &             &                   \\
+			\hline
+			                          &             &                   \\
+			\hline
+			                          &             &                   \\
+			\hline
+			                          &             &                   \\
+			\hline
+		\end{tabular}
+	}
+\end{table}
 
 \end{document}
